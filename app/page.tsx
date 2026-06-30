@@ -16,7 +16,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Obiora Chukwumba",
   honorificSuffix: "PhD",
-  jobTitle: "Media Scholar, Journalist, Film Policy Expert, Lecturer",
+  jobTitle: "Author, Media Scholar, Journalist, Film Policy Expert, Lecturer",
   description:
     "Multifaceted media professional based in Abuja, Nigeria. Co-founder of HumAngle Media, lecturer at Veritas University Abuja, and film regulatory expert.",
   email: "chukwumba@veritas.edu.ng",

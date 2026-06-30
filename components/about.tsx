@@ -72,6 +72,12 @@ export function About() {
                 Media Arts anchors research in film, media policy, and African
                 storytelling economies.
               </p>
+              <p>
+                Beyond the newsroom and classroom, Obiora is a published author
+                whose books span media, culture, and African storytelling —
+                contributing a lasting body of knowledge to discourse on
+                journalism, film, and society.
+              </p>
             </div>
           </motion.div>
 
@@ -96,6 +102,11 @@ export function About() {
                 number: "∞",
                 label: "Stories That Matter",
                 sub: "From the Lake Chad basin to the policy table",
+              },
+              {
+                number: "📚",
+                label: "Published Author",
+                sub: "Books spanning media, journalism, film & African storytelling",
               },
             ].map((stat) => (
               <div

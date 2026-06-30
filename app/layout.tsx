@@ -24,11 +24,13 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Obiora Chukwumba, PhD | Media Scholar · Journalist · Film Policy Expert",
+  title: "Obiora Chukwumba, PhD | Author · Media Scholar · Journalist · Film Policy Expert",
   description:
-    "Obiora Chukwumba, PhD — Media scholar, journalist, film policy expert, co-founder of HumAngle Media, and lecturer at Veritas University Abuja. Bridging the newsroom, the classroom, and the policy table.",
+    "Obiora Chukwumba, PhD — Author, media scholar, journalist, film policy expert, co-founder of HumAngle Media, and lecturer at Veritas University Abuja. Bridging the newsroom, the classroom, and the policy table.",
   keywords: [
     "Obiora Chukwumba",
+    "Obiora Chukwumba author",
+    "Obiora Chukwumba books",
     "HumAngle Media",
     "film policy",
     "NFVCB",
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Obiora Chukwumba, PhD",
     description:
-      "Media Scholar. Journalist. Film Policy Expert. Co-Founder. Lecturer. Bridging the newsroom, the classroom, and the policy table.",
+      "Author. Media Scholar. Journalist. Film Policy Expert. Co-Founder. Lecturer. Bridging the newsroom, the classroom, and the policy table.",
     type: "profile",
     locale: "en_NG",
     siteName: "Obiora Chukwumba, PhD",
@@ -53,7 +55,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Obiora Chukwumba, PhD",
     description:
-      "Media Scholar. Journalist. Film Policy Expert. Co-Founder. Lecturer.",
+      "Author. Media Scholar. Journalist. Film Policy Expert. Co-Founder. Lecturer.",
   },
 };
 

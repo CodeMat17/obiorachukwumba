@@ -6,6 +6,7 @@ import { ChevronDown } from "lucide-react";
 
 const roles = [
   "Media Scholar",
+  "Author",
   "Journalist",
   "Film Policy Expert",
   "Co-Founder",

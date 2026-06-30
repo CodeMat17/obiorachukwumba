@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BookOpen, ExternalLink } from "lucide-react";
+import { BookOpen, BookMarked, ExternalLink } from "lucide-react";
 
 export function Publications() {
   return (
@@ -28,9 +28,47 @@ export function Publications() {
             id="publications-heading"
             className="text-4xl lg:text-5xl font-900 tracking-tight text-foreground"
           >
-            Research & writing
+            Books, research & writing
           </h2>
         </motion.div>
+
+        <motion.article
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.65 }}
+          className="p-8 bg-card rounded-2xl border border-border hover:border-[var(--gold)]/50 hover:shadow-xl transition-all duration-300 group mb-8"
+        >
+          <div
+            className="w-12 h-12 rounded-xl flex items-center justify-center mb-6"
+            style={{ backgroundColor: "oklch(from var(--gold) l c h / 0.12)" }}
+            aria-hidden="true"
+          >
+            <BookMarked
+              size={22}
+              style={{ color: "var(--gold)" }}
+              className="group-hover:scale-110 transition-transform"
+            />
+          </div>
+
+          <p
+            className="text-xs font-700 tracking-widest uppercase mb-3"
+            style={{ color: "var(--gold)" }}
+          >
+            Books · Author
+          </p>
+
+          <h3 className="font-800 text-foreground text-lg leading-snug mb-4">
+            A Prolific Author Across Media, Film & African Storytelling
+          </h3>
+
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            Obiora Chukwumba has authored numerous books that contribute
+            significantly to the discourse on journalism, film regulation,
+            media policy, and African storytelling. His written works stand as
+            an enduring academic and cultural resource.
+          </p>
+        </motion.article>
 
         <div className="grid md:grid-cols-2 gap-8">
           <motion.article
